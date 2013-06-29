@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+
+	<title>VULPT - Gestural 3D Modeling</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="http://localhost:5000/socket.io/socket.io.js"></script>
+    <script src="http://mrdoob.github.com/three.js/build/three.min.js"></script>
+	<script src="js/three.js/Detector.js"></script>
+	<script src="js/three.js/Stats.js"></script>
+
+	<script src="js/threex/THREEx.screenshot.js"></script>
+	<script src="js/threex/THREEx.FullScreen.js"></script>
+	<script src="js/threex/THREEx.WindowResize.js"></script>
+
+	<link  href="css/main.css" rel="stylesheet"/>
+
+</head>
+<body>
+	
+    <!-- three.js container -->
+    <div id="container"></div>
+    
+    <!-- VULPT name -->
+    <div id="vulpt" >VULPT</div>
+
+    <!-- About Project Button -->
+    <div class="msgBox">
+        <a class="btn" href="http://www.phil-rose.co.uk/vulpt">About Project</a>
+    </div> 
+
+	<!-- info on screen display -->
+	<div id="info">
+		<div class="bottom" id="inlineDoc" >
+			- <i>p</i> for screenshot
+		</div> 
+	</div>
+
+	<!-- Vulpt application javascript -->
+	<script src="js/vulpt.js"></script>
+
+</body>
+</html>

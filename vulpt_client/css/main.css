@@ -1,0 +1,81 @@
+body {
+	overflow	: hidden;
+	padding		: 0;
+	margin		: 0;
+
+	color		: #222;
+	background-color: #E6E6E6;
+	font-family	: arial;
+	font-size	: 100%;
+}
+#info .top {
+	position	: absolute;
+	top			: 0px;
+	width		: 100%;
+	padding		: 5px;
+	text-align	: center;
+}
+#info a {
+	color		: #66F;
+	text-decoration	: none;
+}
+#info a:hover {
+	text-decoration	: underline;
+}
+#info .bottom {
+	position	: absolute;
+	bottom		: 0px;
+	right		: 5px;
+	padding		: 5px;
+}
+
+/* PR styles ------------------------------- */
+
+#vulpt {
+	position: absolute; 
+	top:30px;
+	left:30px;
+	font-size: 24px;
+	font-weight:bold;
+	color: #444;
+	letter-spacing: 5px;
+}
+
+.msgBox {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 140%;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #666;
+	display: block;
+	position: absolute;
+	max-width: 160px;
+	top: 30px; 
+	right: 30px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.msgBox img {
+	margin: 0 0 8px;
+}
+
+.msgBox p {
+	-webkit-font-smoothing: antialiased;
+	margin: 0;
+}
+
+.btn {
+	text-decoration: none;
+	color: #666;
+	font-size: 11px;
+	padding: 8px 12px;
+	border: 1px solid #CCC;
+	border-radius: 3px;
+}
+
+.btn:hover {
+	color: #333;
+	border: 1px solid #FFF;
+}
